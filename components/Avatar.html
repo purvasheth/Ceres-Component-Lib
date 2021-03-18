@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceres Docs</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+  <link rel="shortcut icon" href="../images/favicon.ico" />
+  <link rel="stylesheet" href="../lib/styles.css" />
+  <link rel="stylesheet" href="../index.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <button id="hamburger-btn" class="btn hamburger"><i class="fa fa-bars"></i></button>
+      <img class="logo img" src="../images/logo.png" alt="placeholder" />
+      <nav class="nav nav-hide">
+        <ul class="nav__list nav__list--primary">
+          <li class='nav__item'><a class="nav__link" href="../landing.html">Home</a></li>
+          <li class='nav__item'><a class="nav__link nav__link--active" href="#">Docs</a></li>
+          <li class='nav__item'><a class="nav__link" href="#">Github</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="container flex">
+    <main>
+      <h1>Avatar</h1>
+      <h2>Types</h2>
+      <p>There are two types:</p>
+      <ol>
+        <li>with image</li>
+        <li>with initials and customized background</li>
+      </ol>
+      <div class="flex">
+        <span class="avatar m-1">
+          <img src="https://source.unsplash.com/400x400/?headshot" alt="placeholder" />
+        </span>
+        <span class="avatar bg-primary m-1">P S</span>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=vscode&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522avatar%2522%253E%250A%2520%2520%253Cimg%2520%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fsource.unsplash.com%252F400x400%252F%253Fheadshot%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522placeholder%2522%2520%250A%2520%252F%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522avatar%2520bg-primary%2522%253EP%2520S%253C%252Fspan%253E"
+        style="width: 540px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Different Sizes</h2>
+      <p>Sizes can be specified with `avatar-md` and `avatar-lg`</p>
+      <div class="flex">
+        <span class="avatar bg-primary avatar-md m-1">P S</span>
+        <span class="avatar avatar-lg m-1">
+          <img src="https://source.unsplash.com/400x400/?headshot" alt="placeholder" />
+        </span>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=vscode&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522avatar%2520bg-primary%2520avatar-md%2522%253EP%2520S%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522avatar%2520avatar-lg%2522%253E%250A%2520%2520%253Cimg%2520%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fsource.unsplash.com%252F400x400%252F%253Fheadshot%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522placeholder%2522%2520%252F%253E%250A%253C%252Fspan%253E"
+        style="width: 540px; height: 190px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Avatar with badge</h2>
+      <p>Color can be customized for the badge by specifying a background class.</p>
+      <div class="flex">
+        <div class="avatar-parent m-1">
+          <span class="avatar"><img
+              src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+              alt="placeholder" /></span>
+          <span class="badge--smaller avatar__badge bg-green-800"></span>
+        </div>
+        <div class="avatar-parent m-1">
+          <span class="avatar"><img
+              src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+              alt="placeholder" /></span>
+          <span class="badge--smaller avatar__badge bg-red-800"></span>
+        </div>
+        <div class="avatar-parent m-1">
+          <span class="avatar"><img
+              src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+              alt="placeholder" /></span>
+          <span class="badge--smaller avatar__badge bg-yellow-700"></span>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=vscode&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-parent%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fsource.unsplash.com%252F400x400%252F%253Fheadshot%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522placeholder%2522%2520%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge--smaller%2520avatar__badge%2520bg-green-800%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+        style="width: 590px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </main>
+    <aside>
+      <ul class="list">
+        <li class="flex mt-1"><a href="../index.html" class="aside__link">Getting Started</a></li>
+        <li class="flex"><a href="Introduction.html" class="aside__link">Introduction</a></li>
+        <li class="flex"><a href="#" class="aside__link aside__link--active">Avatar</a></li>
+        <li class="flex"><a href="Alert.html" class="aside__link">Alert</a></li>
+        <li class="flex"><a href="Badge.html" class="aside__link">Badge</a></li>
+        <li class="flex"><a href="Button.html" class="aside__link">Button</a></li>
+        <li class="flex"><a href="Card.html" class="aside__link">Card</a></li>
+        <li class="flex"><a href="Image.html" class="aside__link">Image</a></li>
+        <li class="flex"><a href="Input.html" class="aside__link">Input</a></li>
+        <li class="flex"><a href="List.html" class="aside__link">List</a></li>
+        <li class="flex"><a href="Modal.html" class="aside__link">Modal</a></li>
+        <li class="flex"><a href="Navigation.html" class="aside__link">Navigation</a></li>
+        <li class="flex"><a href="Rating.html" class="aside__link">Rating</a></li>
+        <li class="flex"><a href="SearchBar.html" class="aside__link">Search Bar</a></li>
+        <li class="flex"><a href="TextStyles.html" class="aside__link">Text Styles</a></li>
+      </ul>
+    </aside>
+  </div>
+  <script type="text/javascript" src="../lib/index.js">
+  </script>
+</body>
+
+</html>

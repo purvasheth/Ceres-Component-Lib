@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceres Docs</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+  <link rel="shortcut icon" href="../images/favicon.ico" />
+  <link rel="stylesheet" href="../lib/styles.css" />
+  <link rel="stylesheet" href="../index.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <button id="hamburger-btn" class="btn hamburger"><i class="fa fa-bars"></i></button>
+      <img class="logo img" src="../images/logo.png" alt="placeholder" />
+      <nav class="nav nav-hide">
+        <ul class="nav__list nav__list--primary">
+          <li class='nav__item'><a class="nav__link" href="../landing.html">Home</a></li>
+          <li class='nav__item'><a class="nav__link nav__link--active" href="#">Docs</a></li>
+          <li class='nav__item'><a class="nav__link" href="#">Github</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="container flex">
+    <main>
+      <h1>Alert</h1>
+      <h2>Success Alert</h2>
+      <div class="toast toast--success">
+        <button class="btn-close btn-lg">
+          <i class="fa fa-times"></i>
+        </button>
+        <i class="fa fa-check-circle  mr-sm" aria-hidden="true"></i>
+        This is a success alert
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=vscode&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast--success%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-close%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-check-circle%2520%2520mr-sm%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520a%2520success%2520toast%250A%253C%252Fdiv%253E"
+        style="width: 565px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Error Alert</h2>
+      <div class="toast toast--error">
+        <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+        <i class="fa fa-exclamation-circle mr-sm" aria-hidden="true"></i>
+        This is an error alert
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28229%2C231%2C235%2C1%29&t=vscode&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast--error%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-close%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-exclamation-circle%2520mr-sm%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520an%2520error%2520alert%250A%253C%252Fdiv%253E"
+        style="width: 607px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Warning Alert</h2>
+      <div class="toast toast--warning">
+        <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+        <i class="fa fa-exclamation-triangle mr-sm" aria-hidden="true"></i>
+        This is a warning toast
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast--warning%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-close%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-exclamation-triangle%2520mr-sm%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520a%2520warning%2520alert%250A%253C%252Fdiv%253E"
+        style="width: 624px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2> Info Alert</h2>
+      <div class="toast toast--info">
+        <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+        <i class="fa fa-info-circle mr-sm" aria-hidden="true"></i>
+        This is an info alert
+      </div>
+      <iframe class="mt-1 mb-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520toast--info%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-close%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Ci%2520class%253D%2522fa%2520fa-info-circle%2520mr-sm%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520This%2520is%2520an%2520info%2520alert%250A%253C%252Fdiv%253E"
+        style="width: 548px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+
+
+    </main>
+    <aside>
+      <ul class="list">
+        <li class="flex mt-1"><a href="../index.html" class="aside__link">Getting Started</a></li>
+        <li class="flex"><a href="Introduction.html" class="aside__link">Introduction</a></li>
+        <li class="flex"><a href="Avatar.html" class="aside__link">Avatar</a></li>
+        <li class="flex"><a href="#" class="aside__link aside__link--active">Alert</a></li>
+        <li class="flex"><a href="Badge.html" class="aside__link">Badge</a></li>
+        <li class="flex"><a href="Button.html" class="aside__link">Button</a></li>
+        <li class="flex"><a href="Card.html" class="aside__link">Card</a></li>
+        <li class="flex"><a href="Image.html" class="aside__link">Image</a></li>
+        <li class="flex"><a href="Input.html" class="aside__link">Input</a></li>
+        <li class="flex"><a href="List.html" class="aside__link">List</a></li>
+        <li class="flex"><a href="Modal.html" class="aside__link">Modal</a></li>
+        <li class="flex"><a href="Navigation.html" class="aside__link">Navigation</a></li>
+        <li class="flex"><a href="Rating.html" class="aside__link">Rating</a></li>
+        <li class="flex"><a href="SearchBar.html" class="aside__link">Search Bar</a></li>
+        <li class="flex"><a href="TextStyles.html" class="aside__link">Text Styles</a></li>
+      </ul>
+    </aside>
+  </div>
+  <script type="text/javascript" src="../lib/index.js">
+  </script>
+</body>
+
+</html>

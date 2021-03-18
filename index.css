@@ -1,0 +1,71 @@
+:root {
+  --primary: #6D28D9;
+  --primary-dark: #4C1D95;
+  --primary-light: #8B5CF6;
+  --primary-100: #E0E7FF;
+  --primary-200: #DDD6FE;
+  /* yellow-100 */
+  --secondary: #FEF3C7;
+  --grey-100: #F3F4F6;
+  --grey-200: #E5E7EB;
+  --grey-300: #D1D5DB;
+  --grey-400: #9CA3AF;
+  --grey-500: #6B7280;
+  --grey-600: #4B5563;
+  --red-100: #FEE2E2;
+  --red-600: #DC2626;
+  --red-800: #991B1B;
+  --green-100: #D1FAE5;
+  --green-600: #059669;
+  --green-800: #065F46;
+  --yellow-400: #FBBF24;
+  --yellow-700: #B45309;
+  --text-primary: #111827;
+  --text-secondary: #F9FAFB;
+}
+
+.container {
+  max-width: 1000px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--grey-600);
+}
+
+body {
+  color: var(--grey-500);
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+aside {
+  position: sticky;
+  top: 0;
+  height: max-content;
+  width: max-content;
+}
+
+.aside__link {
+  display: flex;
+  text-decoration: none;
+  width: max-content;
+  padding: 0.5rem 2rem;
+  color: var(--text-primary);
+  border-left: 1px solid var(--grey-300);
+  font-size: "1.2rem";
+}
+
+.aside__link--active {
+  color: var(--primary);
+}

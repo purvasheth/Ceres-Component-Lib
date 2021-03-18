@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceres Component Library</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Avatar</h2>
+    <div class="grid-3 m-1">
+      <span class="avatar bg-primary avatar-lg">P S</span>
+      <span class="avatar bg-primary avatar-md">P S</span>
+      <span class="avatar bg-primary">P S</span>
+    </div>
+    <div class="grid-3 m-1">
+      <span class="avatar avatar-lg">
+        <img
+          src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+          alt="placeholder" />
+      </span>
+      <span class="avatar avatar-md">
+        <img
+          src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+          alt="placeholder" />
+      </span>
+      <span class="avatar">
+        <img
+          src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+          alt="placeholder" />
+      </span>
+      <div class="avatar-parent">
+        <span class="avatar"><img
+            src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+            alt="placeholder" /></span>
+        <span class="badge--smaller avatar__badge bg-green-800"></span>
+      </div>
+      <div class="avatar-parent">
+        <span class="avatar"><img
+            src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+            alt="placeholder" /></span>
+        <span class="badge--smaller avatar__badge bg-red-800"></span>
+      </div>
+      <div class="avatar-parent">
+        <span class="avatar"><img
+            src="https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8cGVyc29ufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60"
+            alt="placeholder" /></span>
+        <span class="badge--smaller avatar__badge bg-yellow-700"></span>
+      </div>
+    </div>
+    <hr />
+    <h2>Badge</h2>
+    <div>
+      <span class="badge--regular bg-primary-200 m-1">New</span>
+      <span class="badge--regular bg-red-100 m-1">error</span>
+      <span class="badge--regular bg-green-100 m-1">succees</span>
+      <span class="badge--regular bg-yellow-100 m-1">warning</span>
+    </div>
+    <hr />
+    <div class="m-1">
+      <h2>Button</h2>
+      <button class="btn bg-primary btn-lg mr-1">Primary</button>
+      <button class="btn mr-1">Secondary</button>
+      <button class="btn bg-red-600 btn--round mr-1"><i class="fa fa-exclamation-circle mr-sm" aria-hidden="true"></i>
+        Warning</button>
+      <button class="btn bg-green-600 btn-sm mr-1">Success</button>
+      <button class="btn bg-primary btn--round">Call us<i class="fas fa-phone ml-sm"></i> </button>
+      <button class="btn btn--icon bg-primary m-1"><i class="fas fa-home"></i></button>
+      <button class="btn btn--icon icon--transparent mt-1 ml-l"><i class="fas fa-home"></i></button>
+      <button class="btn btn--icon icon--transparent mt-1 ml-l">
+        <span class="badge--tiny icon__badge--bottom bg-green-600"></span>
+        <i class="fas fa-home"></i>
+      </button>
+      <button class="btn btn--icon icon--transparent mt-1 ml-l">
+        <span class="badge--smaller icon__badge--top bg-red-600">13</span>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </button>
+    </div>
+    <hr />
+    <h2>Image</h2>
+    <div class="grid-3">
+      <img class="img img--scale" alt="baking pans"
+        src="https://m.media-amazon.com/images/I/41c6G4Yvr1L._AC_UL320_.jpg" />
+      <img class="img img--shadow img--round" alt="silicon brushes"
+        src="https://m.media-amazon.com/images/I/51pUbksTn0L._AC_UL320_.jpg" />
+      <img class="img img--scale" alt="baking cups"
+        src="https://m.media-amazon.com/images/I/71kRlcrwKDL._AC_UL320_.jpg" />
+    </div>
+    <h2>Card</h2>
+    <div class="flex">
+      <div class="card p-1 m-1">
+        <img class="img img--scale" alt="cake decorating kits"
+          src="https://m.media-amazon.com/images/I/411UYz9tE5L._AC_UL320_.jpg" />
+        <p>Cake decorating kits with supplies and turntable</p>
+        <p>Rs. 398</p>
+      </div>
+      <div class="card card--shadow p-1 m-1">
+        <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+        <img class="img img--scale" alt="cake decorating kits"
+          src="https://m.media-amazon.com/images/I/411UYz9tE5L._AC_UL320_.jpg" />
+        <p>Cake decorating kits with supplies and turntable</p>
+        <p>Rs. 398</p>
+        <button class="btn bg-primary">Add to Cart</button>
+      </div>
+      <div class="card card--shadow p-1 m-1">
+        Text only card. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempora modi qui, repellendus
+        consequuntur veniam corrupti quaerat recusandae, voluptatem nobis impedit? Modi maxime sapiente, delectus
+        deleniti suscipit mollitia in placeat.
+      </div>
+      <div class="card card--horizontal p-1 m-1">
+        <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+        <img class="img" alt="cake decorating kits"
+          src="https://m.media-amazon.com/images/I/411UYz9tE5L._AC_UL320_.jpg" />
+        <div class="w-100 ml-1">
+          <p>Cake decorating kits with supplies and turntable</p>
+          <p>Rs. 398</p>
+        </div>
+      </div>
+      <div class="card m-1">
+        <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+        <span class="card__badge badge--regular bg-primary-200">New</span>
+        <img class="img" alt="cake decorating kits"
+          src="https://m.media-amazon.com/images/I/51pUbksTn0L._AC_UL320_.jpg" />
+        <div class="w-150 ml-1">
+          <p>Cake decorating kits with supplies and turntable</p>
+          <p>Rs. 398</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <h2>Input</h2>
+    <div class="m-2">
+      <label class="input-label">Name</label>
+      <input class="input" type="text" />
+      <div class="w-150 flex flex-col m-1">
+        <label class="input-label">Name*</label>
+        <input class="input input--error" type="text" />
+        <small class="error-text">Required field</small>
+      </div>
+    </div>
+    <hr />
+    <h2>Lists</h2>
+    <h3>Stacked List</h3>
+    <div class="pos-rel">
+      <span class="notif__arrow"></span>
+      <ul class="list list--notif">
+        <li class="notif__item p-2 flex flex--center">Notification 1</li>
+        <li class="notif__item p-2 flex flex--center">Notification 2</li>
+        <li class="notif__item p-2 flex flex--center">Notification 3</li>
+        <li class="notif__item p-2 flex flex--center">Notification 4</li>
+        <li class="notif__item p-2 flex flex--center">Notification 5</li>
+        <li class="notif__item p-2 flex flex--center">Notification 6</li>
+        <li class="notif__item p-2 flex flex--center">Notification 7</li>
+      </ul>
+    </div>
+    <h3> Spaced List</h3>
+    <ul class="list">
+      <li class="spaced__item p-2 flex flex--center">Item 1</li>
+      <li class="spaced__item p-2 flex flex--center">Item 2</li>
+      <li class="spaced__item p-2 flex flex--center">Item 3</li>
+      <li class="spaced__item p-2 flex flex--center">Item 4</li>
+      <li class="spaced__item p-2 flex flex--center">Item 5</li>
+    </ul>
+    <hr class="mt-1" />
+    <h2>Modal</h2>
+    <button class="btn bg-primary m-1" id="modal-btn">Open Modal</button>
+    <div class="modal-bg modal-hide">
+      <div class="modal modal-hide">
+        <div class="modal-content modal-hide">
+          <button id="close-btn" class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+          <!-- this div should be customized -->
+          <div class="w-200 flex flex--center flex-col">
+            Are you sure you want to delete? Changes will be permanently lost
+            <div class="flex mt-1">
+              <button id="cancel-btn" class="btn mr-1  btn-sm">Cancel</button>
+              <button id="delete-btn" class="btn bg-red-600  btn-sm">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <h2>Navigation</h2>
+  </div>
+  <header class="header">
+    <div class="container">
+      <button id="hamburger-btn" class="btn hamburger"><i class="fa fa-bars"></i></button>
+
+      <img class="img logo" src="../images/logo.png" alt="placeholder" />
+
+      <nav class="nav">
+        <ul class="nav__list nav__list--primary">
+          <li class='nav__item'><a class="nav__link" href="#">Home</a></li>
+          <li class='nav__item'><a class="nav__link" href="#">About</a></li>
+          <li class='nav__item'><a class="nav__link" href="#">Contact</a></li>
+        </ul>
+        <ul class="nav__list nav__list--secondary">
+          <li class='nav__item'><a class="nav__link" href="#">Sign in</a></li>
+          <li class='nav__item'><button class="btn nav__item--btn">Sign up</button></li>
+        </ul>
+      </nav>
+  </header>
+  </div>
+
+  <div class="container">
+    <hr />
+    <h2>Rating</h2>
+    <div class="rating mb-1"><span class="badge--regular bg-green-600">3.5<i class="fa fa-star ml-sm"
+          aria-hidden="true"></i></span>
+      (3567)
+    </div>
+    <hr />
+    <h2>Toast/Alert</h2>
+    <div class="toast toast--success m-1">
+      <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+      <i class="fa fa-check-circle  mr-sm" aria-hidden="true"></i>
+      This is a success toast
+    </div>
+
+    <div class="toast toast--error m-1">
+      <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+      <i class="fa fa-exclamation-circle mr-sm" aria-hidden="true"></i>
+      This is an error toast
+    </div>
+
+    <div class="toast toast--info m-1">
+      <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+      <i class="fa fa-info-circle mr-sm" aria-hidden="true"></i>
+      This is a primary toast
+    </div>
+    <div class="toast toast--warning m-1">
+      <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+      <i class="fa fa-exclamation-triangle mr-sm" aria-hidden="true"></i>
+      This is a warning toast
+    </div>
+    <hr />
+    <h2>Text</h2>
+    <h1 class="font--center font--grey-500">Center Heading
+      <span class="font--primary"> with text</span>
+    </h1>
+    <div class="bg-primary">
+      <h2 class="font--center font--secondary">Heading in Secondary Color</h2>
+    </div>
+    <p class="font--primary"> Regular text </p>
+    <p class="font--success"> Regular text </p>
+    <p class="font--warning"> Regular text </p>
+    <p class="font--error"> Regular text </p>
+    <hr />
+    <h2>Search Input</h2>
+    <div class="search-input m-2">
+      <input class="input" type="text" placeholder="Search for products, brands and more" />
+      <i class="fa fa-search search-icon font--primary" aria-hidden="true"></i>
+      <button class="btn-close close-icon btn-lg"><i class="fa fa-times"></i></button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

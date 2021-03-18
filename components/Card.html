@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceres Docs</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+  <link rel="shortcut icon" href="../images/favicon.ico" />
+  <link rel="stylesheet" href="../lib/styles.css" />
+  <link rel="stylesheet" href="../index.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <button id="hamburger-btn" class="btn hamburger"><i class="fa fa-bars"></i></button>
+      <img class="logo img" src="../images/logo.png" alt="placeholder" />
+      <nav class="nav nav-hide">
+        <ul class="nav__list nav__list--primary">
+          <li class='nav__item'><a class="nav__link" href="../landing.html">Home</a></li>
+          <li class='nav__item'><a class="nav__link nav__link--active" href="#">Docs</a></li>
+          <li class='nav__item'><a class="nav__link" href="#">Github</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="container flex">
+    <main>
+      <h1>Card</h1>
+      <div class="card p-1">
+        <img class="img img--scale" alt="cake decorating kit"
+          src="https://m.media-amazon.com/images/I/411UYz9tE5L._AC_UL320_.jpg" />
+        <p>Cake decorating kit with supplies and turntable</p>
+        <p>Rs. 398</p>
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520p-1%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img%2520img--scale%2522%2520alt%253D%2522cake%2520decorating%2520kit%2522%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F411UYz9tE5L._AC_UL320_.jpg%2522%2520%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253Cp%253ECake%2520decorating%2520kit%2520with%2520supplies%2520and%2520turntable%253C%252Fp%253E%250A%2520%2520%253Cp%253ERs.%2520398%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+        style="width: 658px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Card with shadow</h2>
+      <div class="card card--shadow p-1">
+        <img class="img img--scale" alt="cake decorating kits"
+          src="https://m.media-amazon.com/images/I/411UYz9tE5L._AC_UL320_.jpg" />
+        <p>Cake decorating kits with supplies and turntable</p>
+        <p>Rs. 398</p>
+        <button class="btn bg-primary">Add to Cart</button>
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card--shadow%2520p-1%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522img%2520img--scale%2522%2520alt%253D%2522cake%2520decorating%2520kits%2522%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F411UYz9tE5L._AC_UL320_.jpg%2522%2520%252F%253E%250A%2520%2520%253Cp%253ECake%2520decorating%2520kits%2520with%2520supplies%2520and%2520turntable%253C%252Fp%253E%250A%2520%2520%253Cp%253ERs.%2520398%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520bg-primary%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        style="width: 675px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Card with dismiss/close and Badge</h2>
+      <div class="card">
+        <button class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+        <span class="card__badge badge--regular bg-primary-200">New</span>
+        <img class="img" alt="cake decorating kits"
+          src="https://m.media-amazon.com/images/I/51pUbksTn0L._AC_UL320_.jpg" />
+        <div class="pl-1">
+          <p>Cake decorating kits with supplies and turntable</p>
+          <p>Rs. 398</p>
+        </div>
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-close%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cspan%2520class%253D%2522card__badge%2520badge--regular%2520bg-primary-200%2522%253E%250A%2520%2520%2520%2520Best%2520Seller%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cimg%2520class%253D%2522img%2522%2520alt%253D%2522cake%2520decorating%2520kits%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F51pUbksTn0L._AC_UL320_.jpg%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522pl-1%2522%253E%250A%2520%2520%2520%2520%253Cp%253ECake%2520decorating%2520kits%2520with%2520supplies%2520and%2520turntable%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253ERs.%2520398%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="width: 700px; height: 339px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Horizontal Card</h2>
+      <div class="card card--horizontal p-1">
+        <button class="btn-close btn-lg">
+          <i class="fa fa-times"></i>
+        </button>
+        <img class="img" alt="cake decorating kits"
+          src="https://m.media-amazon.com/images/I/411UYz9tE5L._AC_UL320_.jpg" />
+        <div class="p-1">
+          <p>Cake decorating kits with supplies and turntable</p>
+          <p>Rs. 398</p>
+        </div>
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card--horizontal%2520p-1%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-close%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cimg%2520class%253D%2522img%2522%2520alt%253D%2522cake%2520decorating%2520kits%2522%2520%250A%2520%2520src%253D%2522https%253A%252F%252Fm.media-amazon.com%252Fimages%252FI%252F411UYz9tE5L._AC_UL320_.jpg%2522%250A%2520%2520%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522p-1%2522%253E%250A%2520%2520%2520%2520%253Cp%253ECake%2520decorating%2520kits%2520with%2520supplies%2520and%2520turntable%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253ERs.%2520398%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="width: 632px; height: 301px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+      <h2>Text card</h2>
+      <div class="card card--shadow p-1">
+        Text only card. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempora modi qui, repellendus
+        consequuntur veniam corrupti quaerat recusandae, voluptatem nobis impedit? Modi maxime sapiente, delectus
+        deleniti suscipit mollitia in placeat.
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card--shadow%2520p-1%2522%253E%250A%2520%2520Text%2520only%2520card.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520adipisicing%2520elit.%2520Atque%2520tempora%2520modi%2520qui%252C%2520repellendus%250A%2520%2520consequuntur%2520veniam%2520corrupti%2520quaerat%2520recusandae%252C%250A%2520%2520voluptatem%2520nobis%2520impedit%253F%250A%253C%252Fdiv%253E"
+        style="width: 514px; height: 190px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </main>
+    <aside>
+      <ul class="list">
+        <li class="flex mt-1"><a href="../index.html" class="aside__link">Getting Started</a></li>
+        <li class="flex"><a href="Introduction.html" class="aside__link">Introduction</a></li>
+        <li class="flex"><a href="Avatar.html" class="aside__link">Avatar</a></li>
+        <li class="flex"><a href="Alert.html" class="aside__link">Alert</a></li>
+        <li class="flex"><a href="Badge.html" class="aside__link">Badge</a></li>
+        <li class="flex"><a href="Button.html" class="aside__link">Button</a></li>
+        <li class="flex"><a href="#" class="aside__link aside__link--active">Card</a></li>
+        <li class="flex"><a href="Image.html" class="aside__link">Image</a></li>
+        <li class="flex"><a href="Input.html" class="aside__link">Input</a></li>
+        <li class="flex"><a href="List.html" class="aside__link">List</a></li>
+        <li class="flex"><a href="Modal.html" class="aside__link">Modal</a></li>
+        <li class="flex"><a href="Navigation.html" class="aside__link">Navigation</a></li>
+        <li class="flex"><a href="Rating.html" class="aside__link">Rating</a></li>
+        <li class="flex"><a href="SearchBar.html" class="aside__link">Search Bar</a></li>
+        <li class="flex"><a href="TextStyles.html" class="aside__link">Text Styles</a></li>
+      </ul>
+    </aside>
+  </div>
+  <script type="text/javascript" src="../lib/index.js">
+  </script>
+</body>
+
+</html>

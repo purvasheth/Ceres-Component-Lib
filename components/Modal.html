@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceres Docs</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+  <link rel="shortcut icon" href="../images/favicon.ico" />
+  <link rel="stylesheet" href="../lib/styles.css" />
+  <link rel="stylesheet" href="../index.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <button id="hamburger-btn" class="btn hamburger"><i class="fa fa-bars"></i></button>
+      <img class="logo img" src="../images/logo.png" alt="placeholder" />
+      <nav class="nav nav-hide">
+        <ul class="nav__list nav__list--primary">
+          <li class='nav__item'><a class="nav__link" href="../landing.html">Home</a></li>
+          <li class='nav__item'><a class="nav__link nav__link--active" href="#">Docs</a></li>
+          <li class='nav__item'><a class="nav__link" href="#">Github</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="container flex">
+    <main>
+      <h1>Modal</h1>
+      <button class="btn bg-primary" id="modal-btn">Open Modal</button>
+      <div class="modal-bg modal-hide">
+        <div class="modal modal-hide">
+          <div class="modal-content modal-hide">
+            <button id="close-btn" class="btn-close btn-lg"><i class="fa fa-times"></i></button>
+            <div class="w-200 flex flex--center flex-col">
+              Are you sure you want to delete? Changes will be permanently lost
+              <div class="flex mt-1">
+                <button id="cancel-btn" class="btn mr-1  btn-sm">Cancel</button>
+                <button id="delete-btn" class="btn bg-red-600  btn-sm">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <iframe class="mt-1"
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520bg-primary%2522%2520id%253D%2522modal-btn%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522modal-bg%2520modal-hide%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal%2520modal-hide%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2520modal-hide%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522close-btn%2522%2520class%253D%2522btn-close%2520btn-lg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%21--%2520this%2520div%2520should%2520be%2520customized%2520--%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522w-200%2520flex%2520flex--center%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Are%2520you%2520sure%2520you%2520want%2520to%2520delete%253F%2520Changes%2520will%2520be%2520permanently%2520lost%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520mt-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522cancel-btn%2522%2520class%253D%2522btn%2520mr-1%2520%2520btn-sm%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522delete-btn%2522%2520class%253D%2522btn%2520bg-red-600%2520%2520btn-sm%2522%253EDelete%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="width: 717px; height: 413px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </main>
+    <aside>
+      <ul class="list">
+        <li class="flex mt-1"><a href="../index.html" class="aside__link">Getting Started</a></li>
+        <li class="flex"><a href="Introduction.html" class="aside__link">Introduction</a></li>
+        <li class="flex"><a href="Avatar.html" class="aside__link">Avatar</a></li>
+        <li class="flex"><a href="Alert.html" class="aside__link">Alert</a></li>
+        <li class="flex"><a href="Badge.html" class="aside__link">Badge</a></li>
+        <li class="flex"><a href="Button.html" class="aside__link">Button</a></li>
+        <li class="flex"><a href="Card.html" class="aside__link">Card</a></li>
+        <li class="flex"><a href="Image.html" class="aside__link">Image</a></li>
+        <li class="flex"><a href="Input.html" class="aside__link">Input</a></li>
+        <li class="flex"><a href="List.html" class="aside__link">List</a></li>
+        <li class="flex"><a href="#" class="aside__link aside__link--active">Modal</a></li>
+        <li class="flex"><a href="Navigation.html" class="aside__link">Navigation</a></li>
+        <li class="flex"><a href="Rating.html" class="aside__link">Rating</a></li>
+        <li class="flex"><a href="SearchBar.html" class="aside__link">Search Bar</a></li>
+        <li class="flex"><a href="TextStyles.html" class="aside__link">Text Styles</a></li>
+      </ul>
+    </aside>
+  </div>
+  <script type="text/javascript" src="../lib/index.js">
+  </script>
+</body>
+
+</html>
