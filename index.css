@@ -69,3 +69,23 @@ aside {
 .aside__link--active {
   color: var(--primary);
 }
+
+.container--landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 760px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.container--landing a {
+  text-decoration: none;
+  margin-left: auto;
+}
+
+footer {
+  bottom: 0;
+  padding: 0.5rem;
+}
