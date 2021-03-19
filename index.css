@@ -73,7 +73,7 @@ aside {
 .container--landing {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 80%;
   max-width: 760px;
   flex-direction: column;
