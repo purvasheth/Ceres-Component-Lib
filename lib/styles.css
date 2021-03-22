@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto:wght@100;400;700&display=swap');
 
 :root {
   --primary: #6D28D9;
   --primary-dark: #4C1D95;
   --primary-100: #E0E7FF;
   --primary-200: #DDD6FE;
+  --secondary: #DDD6FE;
   --grey-100: #F3F4F6;
   --grey-200: #E5E7EB;
   --grey-300: #D1D5DB;
@@ -32,7 +33,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
 }
 
 .body-hide-scroll {
@@ -131,7 +132,7 @@ h3 {
 }
 
 .bg-secondary {
-  background: var(--grey-200);
+  background: var(--secondary);
   color: var(--text-primary);
 }
 
@@ -348,7 +349,7 @@ h3 {
 
 .icon--transparent:hover {
   opacity: 1;
-  background: var(--grey-200);
+  background: var(--secondary);
 }
 
 .btn-close {
@@ -365,7 +366,7 @@ h3 {
 }
 
 .btn-close:hover {
-  background: var(--grey-300);
+  background: var(--secondary);
 }
 
 .btn-close:focus {
@@ -615,7 +616,7 @@ h3 {
 
 .hamburger,
 .nav__item--btn {
-  background: var(--grey-200);
+  background: var(--secondary);
   border: transparent;
   color: var(--text-primary);
   text-transform: uppercase;
@@ -781,5 +782,5 @@ h3 {
 }
 
 .font--heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
 }
