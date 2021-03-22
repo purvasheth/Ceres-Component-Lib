@@ -317,6 +317,13 @@ h3 {
   box-shadow: 0 0 0 0.15rem black;
 }
 
+.btn:disabled {
+  cursor: no-drop;
+  background: var(--grey-300);
+  color: var(--grey-600);
+  opacity: 1;
+}
+
 .btn-lg {
   font-size: 1rem;
 }
@@ -350,6 +357,10 @@ h3 {
 .icon--transparent:hover {
   opacity: 1;
   background: var(--secondary);
+}
+
+.icon--transparent:disabled {
+  background: var(--grey-300);
 }
 
 .btn-close {
